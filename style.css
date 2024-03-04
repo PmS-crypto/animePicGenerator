@@ -11,6 +11,8 @@ body {
 .anime-img {
     width: 300px;
     background-size: cover;
+    border-radius: 50%;
+    border: 3px solid green;
 }
 
 .container {
@@ -38,3 +40,16 @@ body {
     cursor: not-allowed;
 }
 
+.anime-name {
+    margin: 20px;
+    background-color: aliceblue;
+    color: green;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.anime-container {
+    display: none;
+}
